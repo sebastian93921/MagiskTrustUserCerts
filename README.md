@@ -1,5 +1,6 @@
 # Magisk Trust User Certs
 - Add Support to Android 14
+
 This module makes all installed user certificates part of the system certificate store, so that they will automatically be used when building the trust chain. This module makes it unnecessary to add the network_security_config property to an application's manifest.
 
 ## Accompanying blogpost
